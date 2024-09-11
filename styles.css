@@ -47,7 +47,7 @@ body {
     transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
     width: 400px;
     margin-top: -100px;
-    margin-left: 350px;
+    margin-left: 150px;
 }
 
 .container__botao2 {
@@ -62,7 +62,7 @@ body {
     transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
     width: 400px;
     margin-top: 20px;
-    margin-left: 350px;
+    margin-left: 140px;
 }
 
 .container__botao:hover {
@@ -81,9 +81,9 @@ body {
 }
 
 .container__titulo {
-    font-size: 55px;
+    font-size: 27px;
     font-weight: 800;
-    margin-left: 40px;
+    margin-left: -5px;
 }
 
 

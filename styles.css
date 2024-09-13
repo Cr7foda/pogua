@@ -1,9 +1,9 @@
 :root {
     --branco-principal: #ffffff ;
-    --roxo-pimário: #030b20;
-    --roxo-secundario: #7a049e;
+    --roxo-pimário: #020d29;
+    --roxo-secundario: #e7e7e7;
     --botao-azul: #202de9;
-    --cor-de-fundo: #747474 ;
+    --cor-de-fundo: #8b8b8b ;
 }
    
 body {
@@ -20,7 +20,7 @@ body {
 
 
 .principal {
-    background-image: url(img/pogua\ \(1\).png);
+    background-image: url(img/pogua\ \(1\)\(1\).png);
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: contain ;
@@ -32,7 +32,7 @@ body {
 
 #logo {
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .container__botao {
@@ -46,8 +46,8 @@ body {
     cursor: pointer; /* Adiciona cursor pointer para indicar clicabilidade */
     transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
     width: 400px;
-    margin-top: -100px;
-    margin-left: 150px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 
 .container__botao2 {
@@ -61,8 +61,8 @@ body {
     cursor: pointer; /* Adiciona cursor pointer para indicar clicabilidade */
     transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
     width: 400px;
-    margin-top: 20px;
-    margin-left: 140px;
+    margin-top: 10px;
+    margin-left: 100px;
 }
 
 .container__botao:hover {
@@ -75,20 +75,21 @@ body {
 
 .container__aviso  {
     color: var(--branco-principal);
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .container__titulo {
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 800;
-    margin-left: -5px;
+    margin-left: -1px;
 }
 
 
 .container__imagem {
     margin: -5em 0 0em 0;
+    width: 30%;
 }
 
 .container__caixa {
@@ -98,6 +99,7 @@ body {
 
 .secundario__imagem {
     width: 40%;
+    
 }
 
 .secundario {
@@ -111,9 +113,9 @@ body {
     color: var(--branco-principal);
     margin-bottom: 0.1em;
     font-size: 50px;
-    font-weight: 2000;
-    margin-left: 1200px;
-    margin-top: -700px;
+    font-weight: 1500;
+    margin-left: 600px;
+    margin-top: 100px;
 }
 
 .descricao__texto {
